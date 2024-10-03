@@ -75,7 +75,7 @@ PORT=3000
 1. **登录 MySQL**：
     `mysql -u root -p`
 2. **执行 SQL 脚本**：
-   ```sql
+```sql
 -- 创建数据库
 CREATE DATABASE iblog CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
@@ -99,8 +99,8 @@ CREATE TABLE posts (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
-
 ```
+
 ### 步骤 5：启动服务器
 
 在项目根目录下运行以下命令以启动服务器：

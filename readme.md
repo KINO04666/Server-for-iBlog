@@ -216,7 +216,7 @@ Server is running on port 3000
     - **方法**: `GET`
         
     - **成功响应**:
-    ```json
+```json
     [
 	  {
     "id": "integer",
